@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html ng-app="Autodesk.ADN.Physics.Main">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+   <link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico'/>
+
+    <title>ADN Physics</title>
+
+    <link rel="stylesheet" href="lib/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="lib/bower_components/angular-ui-layout/ui-layout.css">
+    <link rel="stylesheet" href="lib/bower_components/jstree/dist/themes/default/style.min.css">
+    <link rel="stylesheet" href="lib/bower_components/angular-xeditable/dist/css/xeditable.css" >
+    <link rel="stylesheet" type="text/css" href="https://developer.api.autodesk.com/viewingservice/v1/viewers/style.css?v=v1.2.14"/>
+    <link type="text/css" rel="stylesheet" href="css/app.css"/>
+
+</head>
+
+<body ng-controller="Autodesk.ADN.Physics.Main.Controller">
+
+    <div ng-include="'js/ui/dialogs/navbar/navbar.html'"> </div>
+    <div ng-include="'js/ui/dialogs/about/about.html'"> </div>
+
+    <ng-view>
+
+    </ng-view>
+
+    <script src="https://developer.api.autodesk.com/viewingservice/v1/viewers/viewer3D.min.js?v=v1.2.14"></script>
+
+    <script src="lib/bower_components/view-and-data-toolkit/dist/js/view-and-data-client-v1.min.js"></script>
+    <script src="lib/bower_components/view-and-data-toolkit/dist/js/viewer.min.js"></script>
+
+    <script src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="lib/bower_components/angular/angular.min.js"></script>
+    <script src="lib/bower_components/angular-route/angular-route.min.js"></script>
+
+    <script src="lib/bower_components/raf/index.js"></script>
+    <script src="lib/bower_components/angular-ui-layout/ui-layout.js"></script>
+
+    <script src="lib/bower_components/angular-material-icons/angular-material-icons.min.js"></script>
+    <script src="lib/bower_components/svg-morpheus/compile/minified/svg-morpheus.js"></script>
+
+
+    <script src="lib/bower_components/jstree/dist/jstree.min.js"></script>
+
+    <script src="lib/bower_components/async/lib/async.js"></script>
+
+    <script src="lib/bower_components/lodash/lodash.min.js"></script>
+
+    <script src="lib/ammo.js/ammo.js"></script>
+    <script src="https://rawgit.com/darsain/fpsmeter/master/dist/fpsmeter.min.js"></script>
+    <script src="https://rawgit.com/vitalets/angular-xeditable/master/dist/js/xeditable.min.js"></script>
+
+    <script src="build/app.min.js"></script>
+
+</body>
+
+</html>
