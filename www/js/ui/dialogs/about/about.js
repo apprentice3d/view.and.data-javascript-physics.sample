@@ -21,7 +21,7 @@
 //
 //
 ///////////////////////////////////////////////////////////////////////////////
-angular.module('Autodesk.ADN.MongoSample.Dialog.About',
+angular.module('Autodesk.ADN.Physics.Dialog.About',
     [
 
     ])
@@ -30,7 +30,7 @@ angular.module('Autodesk.ADN.MongoSample.Dialog.About',
     //
     //
     ///////////////////////////////////////////////////////////////////////////
-    .controller('Autodesk.ADN.MongoSample.Dialog.About.Controller',
+    .controller('Autodesk.ADN.Physics.Dialog.About.Controller',
 
     function($scope) {
 

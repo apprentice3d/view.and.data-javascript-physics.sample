@@ -21,22 +21,22 @@
 //
 //
 ///////////////////////////////////////////////////////////////////////////////
-angular.module('Autodesk.ADN.MongoSample.Dialog.Navbar',
+angular.module('Autodesk.ADN.Physics.Dialog.Navbar',
     [
-        'Autodesk.ADN.MongoSample.Dialog.About'
+        'Autodesk.ADN.Physics.Dialog.About'
     ])
 
     ///////////////////////////////////////////////////////////////////////////
     //
     //
     ///////////////////////////////////////////////////////////////////////////
-    .controller('Autodesk.ADN.MongoSample.Dialog.Navbar.Controller',
+    .controller('Autodesk.ADN.Physics.Dialog.Navbar.Controller',
 
     function($scope) {
 
         $scope.brand = "View & Data API - Physics";
 
-        $scope.brandImg = "resources/img/adsk/adsk-32x32-32.png";
+        $scope.brandImg = "resources/img/adsk.png";
 
         var gravity = true;
 

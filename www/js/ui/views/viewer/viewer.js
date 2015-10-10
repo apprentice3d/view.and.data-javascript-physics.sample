@@ -27,7 +27,7 @@ var configClient = require("../../../config-client");
 //
 //
 ///////////////////////////////////////////////////////////////////////////////
-angular.module('Autodesk.ADN.MongoSample.View.Viewer',
+angular.module('Autodesk.ADN.Physics.View.Viewer',
   [
     'ngRoute',
     'Autodesk.ADN.Toolkit.Directive.Viewer'
@@ -43,7 +43,7 @@ angular.module('Autodesk.ADN.MongoSample.View.Viewer',
 
       $routeProvider.when('/viewer', {
         templateUrl: './js/ui/views/viewer/viewer.html',
-        controller: 'Autodesk.ADN.MongoSample.View.Viewer.Controller'
+        controller: 'Autodesk.ADN.Physics.View.Viewer.Controller'
       });
     }])
 
@@ -51,7 +51,7 @@ angular.module('Autodesk.ADN.MongoSample.View.Viewer',
   //
   //
   ///////////////////////////////////////////////////////////////////////////
-  .controller('Autodesk.ADN.MongoSample.View.Viewer.Controller',
+  .controller('Autodesk.ADN.Physics.View.Viewer.Controller',
   ['$scope', '$http', '$compile', 'ViewAndData', function(
     $scope, $http, $compile, ViewAndData) {
 

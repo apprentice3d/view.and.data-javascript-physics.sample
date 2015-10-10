@@ -101,8 +101,8 @@ angular.module('Autodesk.ADN.Physics.Main',
       'ui.layout',
       'ui-layout-events',
       'Physics.editable',
-      'Autodesk.ADN.MongoSample.View.Viewer',
-      'Autodesk.ADN.MongoSample.Dialog.Navbar',
+      'Autodesk.ADN.Physics.View.Viewer',
+      'Autodesk.ADN.Physics.Dialog.Navbar',
       'Autodesk.ADN.Toolkit.UI.Directive.SpinningImg',
       'Autodesk.ADN.Toolkit.ViewData.Service.ViewAndData'
   ])

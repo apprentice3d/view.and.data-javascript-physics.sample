@@ -41,7 +41,7 @@ function onError(error) {
 lmv.initialise().then(
   function() {
 
-    app.use('/api/token', require('./routes/api/token')(lmv));
+    app.use(config.host + '/api/token', require('./routes/api/token')(lmv));
 
     var connector = new dbConnector(config);
 
