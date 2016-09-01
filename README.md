@@ -1,5 +1,5 @@
 # viewer-javascript sample
-[![build status](https://api.travis-ci.org/cyrillef/models.autodesk.io.png)](https://travis-ci.org/cyrillef/models.autodesk.io)
+[![build status](https://travis-ci.org/apprentice3d/viewer-javascript-physics.sample.svg)](https://travis-ci.org/apprentice3d/viewer-javascript-physics.sample)
 [![Node.js](https://img.shields.io/badge/Node.js-6.3.1-blue.svg)](https://nodejs.org/)
 [![npm](https://img.shields.io/badge/npm-3.10.3-blue.svg)](https://www.npmjs.com/)
 ![Platforms](https://img.shields.io/badge/platform-windows%20%7C%20osx%20%7C%20linux-lightgray.svg)
