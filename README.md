@@ -8,7 +8,7 @@
 
 *Forge API*:
 [![oAuth2](https://img.shields.io/badge/oAuth2-v1-green.svg)](http://developer-autodesk.github.io/)
-[![Viewer](https://img.shields.io/badge/Forge%20Viewer-v2.10-green.svg)](http://developer-autodesk.github.io/)
+[![Viewer](https://img.shields.io/badge/Forge%20Viewer-v1.2.14-yellow.svg)](http://developer-autodesk.github.io/)
 
 ## Live demo at
 
@@ -56,7 +56,7 @@ This sample is dependent of Node.js and few Node.js extensions which would updat
 
 ## License
 
-That samples are licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT). Please see the [LICENSE](./LICENSE) file for full details.
+That samples are licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT). Please see the [LICENSE](   ./LICENSE) file for full details.
 
 ## Written by 
 
